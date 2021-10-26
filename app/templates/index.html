@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<br>
+<div class="w3-container"> 
+<div class="index-pad">
+    <center><h1 >Air Quallity</h1></center>
+
+
+<div class="what-aout-air">
+    <center><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat lectus et tortor posuere finibus. Duis a nulla vitae purus fermentum commodo. Donec ac finibus quam. Morbi vel pellentesque nunc. Cras convallis ac nulla quis finibus. Aenean a quam a nisi tristique vestibulum nec maximus dui. Vivamus fringilla, dolor at elementum blandit, lacus libero pulvinar massa, sed lacinia lectus lectus id nisi.</p></center>
+</div>
+<br>
+<br>
+<center>
+<table>
+  <tr>
+    <th>Air qualty index</th>
+    <th>Color</th>
+    <th>What dose it mean</th>
+  </tr>
+
+
+  <tr>
+    <td>0-33</td>
+    <td>Very good
+      <br>
+      <img src="static/verygood.jpg" alt="Qeensland Goverment" style="width:90px;height:100px">
+
+    </td>
+    <td>The air is ok to breath</td>
+  </tr>
+
+  <tr>
+    <td>34-66</td>
+    <td>Good
+      <br>
+    <img src="static/good.jpg" alt="Qeensland Goverment" style="width:90px;height:100px">
+
+    </td>
+    <td>The air is ok to breath</td>
+  </tr>
+
+  <tr>
+    <td>67-99</td>
+    <td>Fair
+      <br>
+    <img src="static/mod.jpg" alt="Qeensland Goverment" style="width:90px;height:100px">
+    </td>
+    <td>People unusually senstive to air pollution should reduce or reschedule strenuous outdoor activities.</td>
+  </tr>
+
+  <tr>
+    <td>100-149</td>
+    <td>Poor
+      <br>
+    <img src="static/littlesad.jpg" alt="Qeensland Goverment" style="width:90px;height:100px">
+    </td>
+    <td>Sensitive groups like ashma should reduce or reschedule strenuous outdoor activities.</td>
+  </tr>
+
+  <tr>
+    <td>150-199</td>
+    <td>Very poor
+      <br>
+    <img src="static/sad.jpg" alt="Qeensland Goverment" style="width:90px;height:100px">
+    </td>
+    <td>Sensitive groups should avoid strenuous outdoor activities. Other adults should reduce or reschedule strenous outdoor activities.</td>
+  </tr>
+
+  <tr>
+    <td>200+</td>
+    <td>Hazardous
+      <br>
+    <img src="static/verysad.jpg" alt="Qeensland Goverment" style="width:90px;height:100px">
+    </td>
+    <td>Sensitive groups should avoid all outdoor activities. Other adults should avoid strenous outdoor activiti</td>
+  </tr>
+
+</table>
+</center>
+<br>
+<br>
+
+</div>
+<center><a href="register"><button class="button button2">Subcribe to Air pollution</button></a></center>
+{% endblock %}
+
+
+
